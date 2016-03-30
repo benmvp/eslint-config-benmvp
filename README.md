@@ -38,3 +38,7 @@ Lints ES5-. Only requires [`eslint`](https://github.com/eslint/eslint).
 ## License
 
 [MIT](LICENSE). Copyright (c) 2016 Ben Ilegbodu.
+
+## Thanks
+
+Many thanks to Airbnb and their example [`eslint-config-airbnb`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
