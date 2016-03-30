@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-benmvp",
+  "version": "0.1.0",
+  "description": "Provides Ben Ilegbodu's .eslintrc as an extensible shared config for all of his projects. 😀",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint",
+    "preversion": "npm run test",
+    "postversion": "git push && git push --tags",
+    "release": "npm run release-patch",
+    "release-patch": "npm version patch --mesage 'Patch release v%s' && npm publish",
+    "release-minor": "npm version minor --message 'Minor release v%s' && npm publish",
+    "release-major": "npm version major --message 'Major release v%s' && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmvp/eslint-config-benmvp.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "benmvp"
+  ],
+  "author": "Ben Ilegbodu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benmvp/eslint-config-benmvp/issues"
+  },
+  "homepage": "https://github.com/benmvp/eslint-config-benmvp#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.5.3",
+    "eslint-plugin-react": "^4.2.3",
+    "pre-commit": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
