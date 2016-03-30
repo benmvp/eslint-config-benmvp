@@ -8,7 +8,7 @@
     "link-test": "npm run link && npm test",
     "lint": "eslint .",
     "test": "npm run lint",
-    "preversion": "npm run test",
+    "preversion": "npm run link-test",
     "postversion": "git push && git push --tags",
     "release": "npm run release-patch",
     "release-patch": "npm version patch --mesage 'Patch release v%s' && npm publish",
