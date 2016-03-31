@@ -4,11 +4,9 @@
   "description": "Provides Ben Ilegbodu's .eslintrc as an extensible shared config for all of his projects. 😀",
   "main": "index.js",
   "scripts": {
-    "link": "npm link . && npm link eslint-config-benmvp",
-    "link-test": "npm run link && npm test",
     "lint": "eslint .",
     "test": "npm run lint",
-    "preversion": "npm run link-test",
+    "preversion": "npm test",
     "postversion": "git push && git push --tags",
     "release": "npm run release-patch",
     "release-patch": "npm version patch --message 'Patch release v%s' && npm publish",
@@ -41,6 +39,6 @@
     "node": ">=0.10"
   },
   "pre-commit": [
-    "link-test"
+    "test"
   ]
 }
