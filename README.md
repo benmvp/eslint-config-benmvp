@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/benmvp/eslint-config-benmvp.svg?branch=master)](https://travis-ci.org/benmvp/eslint-config-benmvp)
 [![Dev Dependencies status](https://img.shields.io/david/dev/benmvp/eslint-config-benmvp.svg?style=flat-square)](https://david-dm.org/benmvp/eslint-config-benmvp#info=devDependencies)
 [![downloads](https://img.shields.io/npm/dt/eslint-config-benmvp.svg?style=flat-square)](http://npm-stat.com/charts.html?package=eslint-config-benmvp&from=2016-03-27)
-[![Maintenance Status](https://img.shields.io/badge/status-maintained-brightgreen.svg)](https://github.com/yannickcr/eslint-plugin-react/pulse)
+[![Maintenance Status](https://img.shields.io/badge/status-maintained-brightgreen.svg)](https://github.com/benmvp/eslint-config-benmvp/pulse)
 [![license](https://img.shields.io/npm/l/eslint-config-benmvp.svg?style=flat-square)](http://spdx.org/licenses/MIT)
 
 This package provides Ben Ilegbodu's .eslintrc as an extensible shared config for all of his projects. 😀
