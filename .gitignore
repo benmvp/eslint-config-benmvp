@@ -3,3 +3,4 @@ node_modules/*
 # this is a symbolic link so we can eat our own dogfood by
 # linting the config without using npm link
 !node_modules/eslint-config-benmvp
+*.log
