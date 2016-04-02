@@ -18,10 +18,6 @@ module.exports = {
 
         // disallow reassignments of native objects
         // http://eslint.org/docs/rules/no-native-reassign
-        'no-native-reassign': 2,
-
-        // disallow reassignment of function parameters
-        // http://eslint.org/docs/rules/no-param-reassign
-        'no-param-reassign': 2
+        'no-native-reassign': 2
     }
 };
