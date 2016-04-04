@@ -1,3 +1,5 @@
+var ERROR = 2;
+
 module.exports = {
     'env': {
         'es6': true
@@ -11,38 +13,38 @@ module.exports = {
     'rules': {
         // require parentheses around arrow function parameters
         // http://eslint.org/docs/rules/arrow-parens
-        'arrow-parens': 2,
+        'arrow-parens': ERROR,
 
         // require spacing before & after arrow function's arrow
         // http://eslint.org/docs/rules/arrow-spacing
-        'arrow-spacing': 2,
+        'arrow-spacing': ERROR,
 
         // require use of let & const
         // http://eslint.org/docs/rules/no-var
-        'no-var': 2,
+        'no-var': ERROR,
 
         // require method & property shorthand for object literals
         // http://eslint.org/docs/rules/object-shorthand
-        'object-shorthand': 2,
+        'object-shorthand': ERROR,
 
         // arrow functions should be used as callbacks
         // http://eslint.org/docs/rules/prefer-arrow-callback
-        'prefer-arrow-callback': 2,
+        'prefer-arrow-callback': ERROR,
 
         // use the rest operator instead of arguments
         // http://eslint.org/docs/rules/prefer-rest-params
-        'prefer-rest-params': 2,
+        'prefer-rest-params': ERROR,
 
         // use the spread operator instead of apply
         // http://eslint.org/docs/rules/prefer-spread
-        'prefer-spread': 2,
+        'prefer-spread': ERROR,
 
         // use template literals instead of string concatentation
         // http://eslint.org/docs/rules/prefer-template
-        'prefer-template': 2,
+        'prefer-template': ERROR,
 
         // enforce sorting of imports in a module
         // http://eslint.org/docs/rules/sort-imports
-        'sort-imports': [2, {'ignoreCase': true}]
+        'sort-imports': [ERROR, {'ignoreCase': true}]
     }
 };
