@@ -1,3 +1,7 @@
+## v2.0.0 (April 3, 2016)
+- [major] Added a bunch of [new rules](https://github.com/benmvp/eslint-config-benmvp/commit/24513fa640c3a6d133dd55ede4f862cc20309420#diff-e682a002d2f9d3503088301891c1734b) to [`best-practices.js`](rules/best-practices.js)
+- [dev ops] Lint package against `benmvp/legacy`
+
 ## v1.0.1 (April 1, 2016)
 - [minor] Remove [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign) to allow for easily defaulting param values
 - [dev ops] Remove NPM link scripts
