@@ -1,8 +1,6 @@
 var ERROR = 2,
     WARN = 1,
-    ALLOW = 0,
-
-    maxComplexity = 3;
+    ALLOW = 0;
 
 module.exports = {
     'rules': {
@@ -16,7 +14,7 @@ module.exports = {
 
         // allow maximum cyclomatic complexity of 3
         // http://eslint.org/docs/rules/complexity
-        'complexity': [ERROR, maxComplexity],
+        'complexity': [ERROR, 10],
 
         // ensures all return statements either specify a value or don’t specify a value
         // http://eslint.org/docs/rules/consistent-return
@@ -109,10 +107,6 @@ module.exports = {
         // disallow creation of functions within loops
         // http://eslint.org/docs/rules/no-loop-func
         'no-loop-func': ERROR,
-
-        // disallow the use of magic numbers
-        // http://eslint.org/docs/rules/no-magic-numbers
-        'no-magic-numbers': WARN,
 
         // disallow use of multiline strings
         // http://eslint.org/docs/rules/no-multi-str
