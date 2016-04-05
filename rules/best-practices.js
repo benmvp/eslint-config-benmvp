@@ -12,7 +12,7 @@ module.exports = {
         // http://eslint.org/docs/rules/block-scoped-var
         'block-scoped-var': ERROR,
 
-        // allow maximum cyclomatic complexity of 3
+        // allow maximum cyclomatic complexity of 10
         // http://eslint.org/docs/rules/complexity
         'complexity': [ERROR, 10],
 
