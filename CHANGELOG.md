@@ -1,3 +1,7 @@
+## v3.0.0 (April 16, 2016)
+- [breaking] Changing [`jsx-boolean-value`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md) in [`react`](rules/react.js) to enforce always including the boolean value
+- [minor] Increase [`complexity`](http://eslint.org/docs/rules/complexity) in [`best-practices`](rules/best-practices.js) to `12` and also make it a warning
+
 ## v2.0.1 (April 4, 2016)
 - [minor] Remove [`no-magic-numbers`](http://eslint.org/docs/rules/no-magic-numbers) from [`best-practices`](rules/best-practices.js)
 - [minor] Increase [`complexity`](http://eslint.org/docs/rules/complexity) in [`best-practices`](rules/best-practices.js) to `10`
