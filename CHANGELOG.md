@@ -1,3 +1,6 @@
+## v3.0.1 (April 18, 2016)
+- [minor] Relax [`no-console`](http://eslint.org/docs/rules/no-console) in [`errors`](rules/errors.js) to be a warning
+
 ## v3.0.0 (April 16, 2016)
 - [breaking] Changing [`jsx-boolean-value`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md) in [`react`](rules/react.js) to enforce always including the boolean value
 - [minor] Increase [`complexity`](http://eslint.org/docs/rules/complexity) in [`best-practices`](rules/best-practices.js) to `12` and also make it a warning
