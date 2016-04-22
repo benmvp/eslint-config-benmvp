@@ -53,6 +53,10 @@ module.exports = {
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
         'react/jsx-key': 'error',
 
+        // Warn when using "dangerous" JSX properties
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
+        'react/no-danger': 'warn',
+
         // Require ES6 class declarations over React.createClass
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
         'react/prefer-es6-class': 'error',
