@@ -41,8 +41,8 @@ module.exports = {
         // http://eslint.org/docs/rules/prefer-template
         'prefer-template': 'error',
 
-        // enforce sorting of imports in a module
+        // do not enforce any sorting of imports
         // http://eslint.org/docs/rules/sort-imports
-        'sort-imports': ['error', {'ignoreCase': true}]
+        'sort-imports': 'off'
     }
 };
