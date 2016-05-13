@@ -1,3 +1,7 @@
+## v3.1.1 (May 12, 2016)
+- [dev ops] Add relevant ESLint rules to `peerDependencies`
+- [dev ops] Remove `npm run release` script
+
 ## v3.1.0 (April 18, 2016)
 - [minor] Relax [`no-danger`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md) in [`react`](rules/react.js) to be a warning
 - [minor] Turn off [`sort-imports`](http://eslint.org/docs/rules/sort-imports) in [`es6`](rules/es6.js)
