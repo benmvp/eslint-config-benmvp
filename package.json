@@ -35,9 +35,9 @@
     "pre-commit": "^1.1.2"
   },
   "peerDependencies": {
-    "babel-eslint": "^6.0.0",
-    "eslint": "^2.5.3",
-    "eslint-plugin-react": "^4.2.3"
+    "babel-eslint": ">=6.0.0",
+    "eslint": ">=2.5.3",
+    "eslint-plugin-react": ">=4.2.3"
   },
   "engines": {
     "node": ">=0.10"

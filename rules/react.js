@@ -14,6 +14,7 @@ module.exports = {
         'plugin:react/recommended'
     ],
     'env': {
+        'es6': true,
         'jasmine': true,
         'jest': true
     },

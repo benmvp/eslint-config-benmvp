@@ -18,7 +18,7 @@ The package exports three ESLint configurations for your usage.
 The default export contains all of the ESLint rules, including ES6+/ES2015+
 and React. It requires [`eslint`](https://github.com/eslint/eslint), [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react) and [`babel-eslint`](https://github.com/babel/babel-eslint).
 
-1. `npm install --save-dev eslint-config-benmvp eslint eslint-plugin-react babel-eslint`
+1. `npm install --save-dev eslint eslint-plugin-react babel-eslint eslint-config-benmvp`
 2. add `"extends": "benmvp"` to your [`.eslintrc.json`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 
 _NOTE:_ This configuration extends `eslint:recommended` and `plugin:react/recommended`.
@@ -27,7 +27,7 @@ _NOTE:_ This configuration extends `eslint:recommended` and `plugin:react/recomm
 
 Lints ES6+/ES2015+ but does not lint React. Only requires [`eslint`](https://github.com/eslint/eslint).
 
-1. `npm install --save-dev eslint-config-benmvp eslint`
+1. `npm install --save-dev eslint eslint-config-benmvp`
 2. add `"extends": "benmvp/base"` to your [`.eslintrc.json`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 
 _NOTE:_ This configuration extends `eslint:recommended`.
@@ -36,7 +36,7 @@ _NOTE:_ This configuration extends `eslint:recommended`.
 
 Lints ES5-. Only requires [`eslint`](https://github.com/eslint/eslint).
 
-1. `npm install --save-dev eslint-config-benmvp eslint`
+1. `npm install --save-dev eslint eslint-config-benmvp`
 2. add `"extends": "benmvp/legacy"` to your [`.eslintrc.json`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 
 _NOTE:_ This configuration extends `eslint:recommended`.
