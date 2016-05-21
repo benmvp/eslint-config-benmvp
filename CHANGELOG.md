@@ -1,3 +1,6 @@
+## v3.1.2 (May 21, 2016)
+- [dev ops] Make `peerDependencies` less restrictive
+
 ## v3.1.1 (May 12, 2016)
 - [dev ops] Add relevant ESLint rules to `peerDependencies`
 - [dev ops] Remove `npm run release` script
