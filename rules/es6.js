@@ -29,6 +29,10 @@ module.exports = {
         // http://eslint.org/docs/rules/prefer-arrow-callback
         'prefer-arrow-callback': 'error',
 
+        // do not use const everywhere
+        // http://eslint.org/docs/rules/prefer-const
+        'prefer-const': 'off',
+
         // use the rest operator instead of arguments
         // http://eslint.org/docs/rules/prefer-rest-params
         'prefer-rest-params': 'error',
