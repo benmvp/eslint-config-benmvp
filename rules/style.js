@@ -12,6 +12,15 @@ module.exports = {
         // http://eslint.org/docs/rules/comma-spacing
         'comma-spacing': 'error',
 
+        // if a variable is initialized or assigned the value this,
+        // the name of the variable must be "self"
+        // http://eslint.org/docs/rules/consistent-this
+        'consistent-this': ['error', 'self'],
+
+        // enforce the consistent use of either function expressions
+        // http://eslint.org/docs/rules/func-style
+        'func-style': 'error',
+
         // 4-space indentation
         // http://eslint.org/docs/rules/indent
         'indent': 'error',
@@ -28,6 +37,18 @@ module.exports = {
         // http://eslint.org/docs/rules/newline-after-var
         'newline-after-var': 'error',
 
+        // disallow empty lines over the specified maximum
+        // http://eslint.org/docs/rules/no-multiple-empty-lines
+        'no-multiple-empty-lines': ['error', {
+            max: 2,
+            maxEOF: 1,
+            maxBOF: 0
+        }],
+
+        // disallows the use of nested ternary expressions
+        // http://eslint.org/docs/rules/no-nested-ternary
+        'no-nested-ternary': 'error',
+
         // disallow whitespace before properties
         // http://eslint.org/docs/rules/no-whitespace-before-property
         'no-whitespace-before-property': 'error',
@@ -35,6 +56,15 @@ module.exports = {
         // disallow padding within curly braces of object literals
         // http://eslint.org/docs/rules/object-curly-spacing
         'object-curly-spacing': 'error',
+
+        // enforce `var` variables to be declared either together
+        // and `let` & `const` separately
+        // http://eslint.org/docs/rules/one-var
+        'one-var': ['error', {
+            'var': 'always',
+            'let': 'never',
+            'const': 'never'
+        }],
 
         // require a newline around variable declarations
         // http://eslint.org/docs/rules/one-var-declaration-per-line
