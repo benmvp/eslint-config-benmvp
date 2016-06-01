@@ -1,3 +1,7 @@
+## v4.0.0 (May 31, 2016)
+- [major] Add [`eslint-plugin-jsx-a11y`](https://github.com/evcohen/eslint-plugin-jsx-a11y) rules (see [#2](https://github.com/benmvp/eslint-config-benmvp/pull/2))
+- [minor] Add miscellaneous ESLint rules (see [#1](https://github.com/benmvp/eslint-config-benmvp/pull/1))
+
 ## v3.1.2 (May 21, 2016)
 - [dev ops] Make `peerDependencies` less restrictive
 
