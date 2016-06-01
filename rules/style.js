@@ -17,9 +17,9 @@ module.exports = {
         // http://eslint.org/docs/rules/consistent-this
         'consistent-this': ['error', 'self'],
 
-        // enforce the consistent use of either function expressions
+        // enforce the consistent use of function declarations
         // http://eslint.org/docs/rules/func-style
-        'func-style': 'error',
+        'func-style': ['error', 'declaration'],
 
         // 4-space indentation
         // http://eslint.org/docs/rules/indent

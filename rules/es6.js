@@ -17,6 +17,10 @@ module.exports = {
         // http://eslint.org/docs/rules/arrow-spacing
         'arrow-spacing': 'error',
 
+        // enforce the consistent use of function expressions
+        // http://eslint.org/docs/rules/func-style
+        'func-style': ['error', 'expression'],
+
         // require use of let & const
         // http://eslint.org/docs/rules/no-var
         'no-var': 'error',
