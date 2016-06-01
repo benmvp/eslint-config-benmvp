@@ -1,5 +1,5 @@
 module.exports = {
-    'rules': {
+    rules: {
         // enforces usage of return statement in callbacks of array’s methods
         // http://eslint.org/docs/rules/array-callback-return
         'array-callback-return': 'error',

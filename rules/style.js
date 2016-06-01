@@ -1,5 +1,5 @@
 module.exports = {
-    'rules': {
+    rules: {
         // enforce stroustrup style
         // http://eslint.org/docs/rules/brace-style
         'brace-style': ['error', 'stroustrup'],
@@ -61,9 +61,9 @@ module.exports = {
         // and `let` & `const` separately
         // http://eslint.org/docs/rules/one-var
         'one-var': ['error', {
-            'var': 'always',
-            'let': 'never',
-            'const': 'never'
+            var: 'always',
+            let: 'never',
+            const: 'never'
         }],
 
         // require a newline around variable declarations

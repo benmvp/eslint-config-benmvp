@@ -1,5 +1,5 @@
 module.exports = {
-    'rules': {
+    rules: {
         // warn when using console
         // http://eslint.org/docs/rules/no-console
         'no-console': 'warn',

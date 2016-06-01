@@ -7,7 +7,7 @@
 [![Maintenance Status](https://img.shields.io/badge/status-maintained-brightgreen.svg)](https://github.com/benmvp/eslint-config-benmvp/pulse)
 [![license](https://img.shields.io/npm/l/eslint-config-benmvp.svg?style=flat-square)](http://spdx.org/licenses/MIT)
 
-This package provides Ben Ilegbodu's .eslintrc as an extensible shared config for all of his projects. 😀
+This package provides Ben Ilegbodu's .eslintrc.json as an extensible shared config for all of his projects. 😀
 
 ## Usage
 
@@ -16,9 +16,9 @@ The package exports three ESLint configurations for your usage.
 ### eslint-config-benmvp
 
 The default export contains all of the ESLint rules, including ES6+/ES2015+
-and React. It requires [`eslint`](https://github.com/eslint/eslint), [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react) and [`babel-eslint`](https://github.com/babel/babel-eslint).
+and React. It requires [`eslint`](https://github.com/eslint/eslint), [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react), [`eslint-plugin-jsx-a11y`](https://github.com/evcohen/eslint-plugin-jsx-a11y) and [`babel-eslint`](https://github.com/babel/babel-eslint).
 
-1. `npm install --save-dev eslint eslint-plugin-react babel-eslint eslint-config-benmvp`
+1. `npm install --save-dev eslint eslint-plugin-react eslint-plugin-jsx-a11y babel-eslint eslint-config-benmvp`
 2. add `"extends": "benmvp"` to your [`.eslintrc.json`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 
 _NOTE:_ This configuration extends `eslint:recommended` and `plugin:react/recommended`.
