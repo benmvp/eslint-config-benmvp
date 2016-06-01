@@ -4,10 +4,6 @@ module.exports = {
         // http://eslint.org/docs/rules/comma-dangle
         'comma-dangle': ['error', 'only-multiline'],
 
-        // require initialization in variable declarations
-        // http://eslint.org/docs/rules/init-declarations
-        'init-declarations': 'error',
-
         // disallow `catch` clause parameters from shadowing variables in the
         // outer scope
         // http://eslint.org/docs/rules/no-catch-shadow
