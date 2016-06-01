@@ -1,14 +1,14 @@
 module.exports = {
-    'env': {
-        'es6': true
+    env: {
+        es6: true
     },
-    'parserOptions': {
-        'ecmaVersion': 6,
-        'sourceType': 'module',
-        'ecmaFeatures': {
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: 'module',
+        ecmaFeatures: {
         }
     },
-    'rules': {
+    rules: {
         // require parentheses around arrow function parameters
         // http://eslint.org/docs/rules/arrow-parens
         'arrow-parens': 'error',

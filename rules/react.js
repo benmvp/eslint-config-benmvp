@@ -1,27 +1,26 @@
 module.exports = {
-    'plugins': [
+    plugins: [
         'react'
     ],
-    'parser': 'babel-eslint',
-    'parserOptions': {
-        'ecmaVersion': 7,
-        'sourceType': 'module',
-        'ecmaFeatures': {
-            'jsx': true
+    parser: 'babel-eslint',
+    parserOptions: {
+        ecmaVersion: 7,
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true
         }
     },
-    'extends': [
+    extends: [
         'plugin:react/recommended'
     ],
-    'env': {
-        'es6': true,
-        'jasmine': true,
-        'jest': true
+    env: {
+        es6: true,
+        jest: true
     },
 
     // View link below for react rules documentation
     // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
-    'rules': {
+    rules: {
         // Use double quotes for JSX
         // http://eslint.org/docs/rules/jsx-quotes
         'jsx-quotes': 'error',
