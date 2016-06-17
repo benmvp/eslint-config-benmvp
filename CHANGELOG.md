@@ -1,3 +1,6 @@
+## v4.0.2 (June 17, 2016)
+- [patch] Base config now depends on [`babel-eslint`](https://github.com/babel/babel-eslint)
+
 ## v4.0.1 (May 31, 2016)
 - [patch] Remove [`init-declarations`](http://eslint.org/docs/rules/init-declarations) rule
 
