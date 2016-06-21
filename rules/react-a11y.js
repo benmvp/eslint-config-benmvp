@@ -51,8 +51,9 @@ module.exports = {
         'jsx-a11y/no-access-key': 'error',
 
         // Enforce that `onBlur` is used instead of (or in tandem with) `onChange`
+        // NOTE: Consider later
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md
-        'jsx-a11y/no-onchange': 'error',
+        'jsx-a11y/no-onchange': 'off',
 
         // Enforce that elements with onClick handlers must be focusable
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/onclick-has-focus.md
