@@ -1,3 +1,6 @@
+## v4.0.3 (June 21, 2016)
+- [patch] Turn off [`jsx-a11y/no-onchange`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md) in [`react-a11y`](rules/react-a11y.js)
+
 ## v4.0.2 (June 17, 2016)
 - [patch] Base config now depends on [`babel-eslint`](https://github.com/babel/babel-eslint)
 
