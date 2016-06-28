@@ -1,3 +1,6 @@
+## v4.1.0 (June 27, 2016)
+- [minor] Ensure  [`jsx-a11y/jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md) enforces `_handle` as a prefix for event handlers in [`react`](rules/react.js)
+
 ## v4.0.3 (June 21, 2016)
 - [patch] Turn off [`jsx-a11y/no-onchange`](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md) in [`react-a11y`](rules/react-a11y.js)
 
